@@ -36,7 +36,7 @@
 
         @yield('content_asignar')
 
-        <section class= "h-40 mt-10 flex items-center bg-center bg-cover bg-blend-overlay bg-black/60 text-white" style="background-image: url('https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+        <section class= "mt-20 h-40 mt-10 flex items-center bg-center bg-cover bg-blend-overlay bg-black/60 text-white" style="background-image: url('https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
             <section class= "text-center mx-auto">
                 <h2 class= "text-4xl md:text-6xl font-allu mt-2">Regala una experiencia inolvidable</h2>
             </section>
