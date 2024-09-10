@@ -10,16 +10,18 @@
         <section class= "text-center">
             <section class="w-full block flex-grow sm:flex justify-between bg-amber-400 p-4 text-white font-bold">
                 <section>
-                    <h1 class="m-2 font-allu text-4xl md:text-5xl">Restaurante</h1>
+                    <a href="/reservar">
+                        <h1 class="m-2 font-allu text-4xl md:text-5xl">Restaurante</h1>
+                    </a>
                 </section>
 
                 <section class= "flex justify-center">
                     <section class="flex justify-between">
                         <section class="text-lg font-mont m-2 w-30 p-2 rounded hover:bg-amber-200 hover:text-amber-900">
-                            Reservar
+                            <a href="/reservar"> Reservar </a>
                         </section>
-                        <section class="text-lg font-mont m-2 w-20 p-2 rounded hover:bg-amber-200 hover:text-amber-900">
-                            Asignar
+                        <section class="text-lg font-mont m-2 w-30 p-2 rounded hover:bg-amber-200 hover:text-amber-900">
+                            <a href="/asignar"> Asignar </a>
                         </section>
                     </section>
                 </section>
@@ -36,7 +38,7 @@
 
         @yield('content_asignar')
 
-        <section class= "mt-20 h-40 mt-10 flex items-center bg-center bg-cover bg-blend-overlay bg-black/60 text-white" style="background-image: url('https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+        <section class= "mt-20 h-40 flex items-center bg-center bg-cover bg-blend-overlay bg-black/60 text-white" style="background-image: url('https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
             <section class= "text-center mx-auto">
                 <h2 class= "text-4xl md:text-6xl font-allu mt-2">Regala una experiencia inolvidable</h2>
             </section>

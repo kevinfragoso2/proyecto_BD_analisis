@@ -11,16 +11,18 @@
         <section class= "text-center">
             <section class="w-full block flex-grow sm:flex justify-between bg-amber-400 p-4 text-white font-bold">
                 <section>
-                    <h1 class="m-2 font-allu text-4xl md:text-5xl">Restaurante</h1>
+                    <a href="/reservar">
+                        <h1 class="m-2 font-allu text-4xl md:text-5xl">Restaurante</h1>
+                    </a>
                 </section>
 
                 <section class= "flex justify-center">
                     <section class="flex justify-between">
                         <section class="text-lg font-mont m-2 w-30 p-2 rounded hover:bg-amber-200 hover:text-amber-900">
-                            Reservar
+                            <a href="/reservar"> Reservar </a>
                         </section>
-                        <section class="text-lg font-mont m-2 w-20 p-2 rounded hover:bg-amber-200 hover:text-amber-900">
-                            Asignar
+                        <section class="text-lg font-mont m-2 w-30 p-2 rounded hover:bg-amber-200 hover:text-amber-900">
+                            <a href="/asignar"> Asignar </a>
                         </section>
                     </section>
                 </section>
